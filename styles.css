@@ -15,7 +15,7 @@ body {
     background-color: gray;
     padding: 40px;
     border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px lightgrey;
     width: 350px;
     transition: transform 0.3s ease;
 }
@@ -42,24 +42,28 @@ button {
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background-color: gray;
+    background-color: rgb(78, 76, 76);
     color: white;
     transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: gray;
+    background-color: rgb(7, 255, 90);
 }
 
 button:disabled {
-    background-color: #ccc;
+    background-color: #999797;
+}
+
+button:disabled:hover {
+    background-color: rgb(185, 38, 38);
 }
 
 .timer-display {
     font-size: 60px;
     margin: 20px;
     font-weight: bold;
-    color: #333;
+    color: gray;
 }
 
 .controls {
