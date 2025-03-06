@@ -10,6 +10,7 @@ body {
 }
 
 .timer-container {
+    color: white;
     text-align: center;
     background-image: url('timebackground.jpg');
     background-color: gray;
