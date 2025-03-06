@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    background-image: url('timebackground.jpg');
     background-color: #f0f0f0;
     display: flex;
     justify-content: center;
@@ -10,7 +11,8 @@ body {
 
 .timer-container {
     text-align: center;
-    background-color: #fff;
+    background-image: url('timebackground.jpg');
+    background-color: gray;
     padding: 40px;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -40,13 +42,13 @@ button {
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background-color: #4CAF50;
+    background-color: gray;
     color: white;
     transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: gray;
 }
 
 button:disabled {
